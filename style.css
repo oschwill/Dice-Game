@@ -65,6 +65,15 @@ main {
 
 .player--active {
   background-color: rgba(255, 255, 255, 0.4);
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 3em;
+  font-weight: bold;
+  font-style: italic;
+  letter-spacing: 0.1em;
+  color: white;
+  text-shadow: 0 0 5px white, 0 0 0px white, 0 0 5px yellow, 0 0 0px yellow, 0 0 60px yellow,
+    0 0 0px yellow, 0 0 20px yellow, 0 0 5px yellow;
 }
 .player--active .name {
   font-weight: 700;
@@ -164,4 +173,20 @@ main {
 .player--winner .name {
   font-weight: 700;
   color: #c7365f;
+}
+
+.hidden {
+  display: none;
+}
+
+#win--0 {
+  color: green;
+  font-weight: bold;
+  font-size: 45px;
+}
+
+#win--1 {
+  color: green;
+  font-weight: bold;
+  font-size: 45px;
 }
